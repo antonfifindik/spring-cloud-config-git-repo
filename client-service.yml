@@ -1,3 +1,5 @@
+test: testOne
+
 logging:
   level:
     root: info
