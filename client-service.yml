@@ -1,0 +1,37 @@
+logging:
+  level:
+    root: info
+
+spring:
+  profiles:
+    # active profile
+    active: development
+
+---
+# this is a development profile
+# use it for local development and testing
+spring:
+  profiles: development
+  datasource:
+    sql-script-encoding: UTF-8
+    platform: h2
+    type: org.apache.tomcat.jdbc.pool.DataSource
+  jpa:
+    hibernate.ddl-auto: create
+    show-sql: false
+  h2.console.enabled: true
+  h2.console.path: /h2-console
+  jackson.serialization.FAIL_ON_EMPTY_BEANS: false
+
+application:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:application;DB_CLOSE_DELAY=1000
+    username: sa
+    password:
+
+---
+# this is a production profile
+spring:
+  profiles: production
+  jackson.serialization.FAIL_ON_EMPTY_BEANS: false
