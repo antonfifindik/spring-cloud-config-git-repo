@@ -1,4 +1,4 @@
-test: testThree
+test: testFour
 
 logging:
   level:
