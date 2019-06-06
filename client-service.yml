@@ -1,18 +1,7 @@
 logging:
   level:
     root: info
-
-server:
-  port: 8091
     
-spring:
-  profiles:
-    # active profile
-    active: development
-
----
-# this is a development profile
-# use it for local development and testing
 spring:
   profiles: development
   datasource:
@@ -32,9 +21,3 @@ application:
     url: jdbc:h2:mem:application;DB_CLOSE_DELAY=1000
     username: sa
     password:
-
----
-# this is a production profile
-spring:
-  profiles: production
-  jackson.serialization.FAIL_ON_EMPTY_BEANS: false
