@@ -6,6 +6,9 @@ logging:
   level:
     root: info
     
+server:
+  port: 8091
+    
 ---
 # this is a development profile
 # use it for local development and testing
