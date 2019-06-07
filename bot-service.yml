@@ -2,10 +2,6 @@ logging:
   level:
     root: info
 
-  profiles:
-    # active profile
-    active: development
-
 ---
 # this is a development profile
 # use it for local development and testing
