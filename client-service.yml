@@ -1,6 +1,6 @@
 config:
   test:
-    message: This is message for client-service.
+    message: This is message for client-service [CHANGED].
 
 logging:
   level:
