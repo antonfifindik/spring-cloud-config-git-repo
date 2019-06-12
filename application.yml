@@ -1,4 +1,4 @@
 common:
   config:
     test:
-      message: This is common message for all microservices
+      message: This is common message for all microservices :)
