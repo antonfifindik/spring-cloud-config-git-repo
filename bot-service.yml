@@ -1,17 +1,10 @@
 config:
   test:
-    message: This is message for bot-service [CHANGED].
+    message: This is message for bot-service.
 
 logging:
   level:
     root: info
-
-spring:
-  rabbitmq:
-    host: 192.168.99.100
-    port: 5672
-    username: guest
-    password: guest
     
 ---
 # this is a development profile

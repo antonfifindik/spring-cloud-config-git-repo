@@ -1,4 +1,12 @@
 common:
   config:
     test:
-      message: This is common message for all microservices :)
+      message: This is common message for all microservices.
+      
+      
+spring:
+  rabbitmq:
+    host: 192.168.99.100
+    port: 5672
+    username: guest
+    password: guest
