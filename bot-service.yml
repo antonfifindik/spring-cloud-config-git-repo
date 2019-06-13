@@ -1,6 +1,6 @@
 config:
   test:
-    message: This is message for bot-service [CHANGED by GitHub webhook].
+    message: This is message for bot-service [CHANGED by GitHub].
 
 logging:
   level:
