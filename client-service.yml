@@ -1,6 +1,6 @@
 config:
   test:
-    message: This is message for client-service [CHANGED].
+    message: This is message for client-service [CHANGED by GitHub webhook].
 
 logging:
   level:
