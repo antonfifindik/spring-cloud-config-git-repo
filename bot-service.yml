@@ -1,6 +1,6 @@
 config:
   test:
-    message: This is message for bot-service [CHANGED???].
+    message: This is message for bot-service [CHANGED].
 
 logging:
   level:
